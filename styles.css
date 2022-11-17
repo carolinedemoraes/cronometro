@@ -1,0 +1,36 @@
+body {
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 150px;
+  height: 80px;
+  padding: 2em;
+  border: 2px solid white;
+  border-radius: 2em;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(200, 0, 151, 2) 20%,
+    rgba(0, 200, 200, 2) 80%
+  );
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+}
+
+button {
+  border-radius: 2em;
+  border: 1px soilid purple;
+}
+.bt {
+  display: inline-block;
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
